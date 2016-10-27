@@ -1,0 +1,78 @@
+header {
+
+}
+
+.logo {
+	width:200px;
+	height:150px;
+	display:block;
+	margin:0 auto;
+}
+
+.search {
+	display:block;
+	margin:0 auto;
+	border-radius:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.carrinho {
+	position:absolute;
+	top:120px;
+	right:3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.container {
+	display:block;
+}
+.mapa {
+	width:180px;
+	height:140px;
+}
+
+.descricao {
+	float:left;
+}
+
+.resumo {
+	
+}
+
+
+footer {
+
+}
