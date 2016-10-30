@@ -59,6 +59,15 @@ li:last-child {
 .container {
 	display:block;
 }
+
+.container img {
+	float:left;	
+}
+
+.container button , a {
+	display:block;		
+}
+
 .mapa {
 	width:180px;
 	height:140px;
